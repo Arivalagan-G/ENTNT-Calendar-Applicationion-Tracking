@@ -1,0 +1,152 @@
+/* General layout styles */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    /* //background: linear-gradient(90deg, #3b82f6, #2563eb); */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button styles for the navigation menu */
+  button {
+    background: none;
+    border: 1px solid transparent;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1f2937; /* Dark text color */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e5e7eb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+  }
+  
+  /* Space between navigation items */
+  .nav-item {
+    margin-right: 24px;
+  }
+  
+  /* Active tab styles */
+  button.active {
+    background-color: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive select dropdown for mobile */
+  select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #374151;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #1f2937;
+  }
+  
+  select:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
+    outline: none;
+  }
+  
+  /* Utility classes */
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  /* Tabs styles */
+  .inline-flex {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .px-1 {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .pt-1 {
+    padding-top: 4px;
+  }
+  
+  .border-b-2 {
+    border-bottom-width: 2px;
+  }
+  
+  .text-sm {
+    font-size: 14px;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .border-blue-500 {
+    border-color: #3b82f6;
+  }
+  
+  .text-gray-900 {
+    color: #1f2937;
+  }
+  
+  .text-gray-500 {
+    color: #374151;
+  }
+  
+  .hover\:border-gray-300:hover {
+    border-color: #6b7280;
+  }
+  
+  .hover\:text-gray-700:hover {
+    color: #111827;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .py-2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  .pl-3 {
+    padding-left: 12px;
+  }
+  
+  .pr-10 {
+    padding-right: 40px;
+  }
+  
+  .text-base {
+    font-size: 16px;
+  }
+  
+  .border-gray-300 {
+    border-color: #374151;
+  }
+  
+  .rounded-md {
+    border-radius: 6px;
+  }
+  
+  /* Additional hover effects for tabs */
+  button:hover .nav-item {
+    color: #1f2937;
+  }
+  
