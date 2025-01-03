@@ -18,4 +18,4 @@ Run the development server using npm start. Open your browser and go to http://l
 Contributing
 Contributions to this project are welcome. If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
 
-https://unitrix.netlify.app/
+https://entnt-calendar-application-lilac.vercel.app/
